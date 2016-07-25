@@ -17,5 +17,16 @@ namespace SumaFactorial
 			}
 			return accumulator;
 		}
+
+		public static int SumOfArray(int[] arr)
+		{
+			int accumulator = 0;
+			for (int i = 0; i < arr.Length; i++)
+			{
+				int valor = arr[i];
+				accumulator += valor;
+			}
+			return accumulator;
+		}
 	}
 }
